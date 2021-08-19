@@ -2,8 +2,6 @@ const express = require("express");
 const app = express();
 const port = 3500;
 
-const filmes = ["Matrix", "Vingadores", "Velozes e Furiosos"];
-
 app.get("/", (req, res) => {
 	res.send("Bem vindos amiges.");
 });
